@@ -1,0 +1,239 @@
+/* --- Geral --- */
+
+* {
+    box-sizing: border-box;
+}
+
+.backColor {
+    background-color: #f9f8f9;
+}
+
+.fontQuick{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.whatsapp-link{
+    position: fixed;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 23px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow:1px 1px 2px #888;
+    z-index: 1000;
+}
+
+/* --- Header/Nav --- */
+
+.colorNavHead {
+    color: #000 !important;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.colorNavHead:hover {
+    color: #4daa25 !important;
+}
+
+
+
+.backHov:hover {
+    background-color: #e2001a !important;
+    color: #fff !important;
+}
+
+
+.toggleBorder {
+    border: 1px solid black !important;
+    }
+
+/* --- Footer/Nav --- */
+
+.footerOrg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 3rem;
+}
+
+.iconInsta {
+    width: 35px;
+    height: 35px;
+    background-color:  #f9f8f9;
+    color: black;
+    margin-left: 10px; 
+}
+
+.iconFace {
+    width: 35px;
+    height: 35px;
+    background-color:  #fff;
+    color: #405DE6;
+    border-radius: 70px;
+}
+
+.titleFooter {
+    padding-right: 30px;
+    font-family: 'Open Sans', serif;
+}
+
+/* --- Faixa --- */
+
+.containerBanner {
+    width: 100%;
+    background-color:#4daa25 ;
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.textMovie {
+    font-size: 2.1rem;
+    color: #fff;
+    width: 70%;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px rgb(76, 75, 75);
+}
+
+.btnVI {
+    padding: 0.4rem;
+    color: #e2001a;
+    border-radius: 8px;
+    border: 2px #e2001a solid ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.btnVII {
+    padding: 0.4rem;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px #e2001a solid ;
+    font-size: 1.72rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.btnVII:hover {
+    color: #e2001a;
+    background-color: #e2001a;
+    border: 2px #e2001a solid ;
+}
+
+.btnVI:hover {
+    color: white;
+    background-color: #e2001a;
+}
+
+.fundoBtnBanner {
+    background-color: #e2001a;
+}
+
+.fundoBtnBanner:hover {
+    background-color: transparent;
+}
+
+/* --- Vídeo Inst. --- */
+
+.videoYout{
+    width: 70%;
+    height: 409px;
+}
+
+.containerVideo{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.widthBtnVI {
+    width:20% !important;}
+    
+.displayBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundoBtnText {
+    background-color: #f9f8f9;
+}
+
+.pStyle {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.bannerAlign{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.intemsBannerAlign {
+    margin-top: 5.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Destaques --- */
+
+.descSty{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.orgDest {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .videoYout{
+        width: 90%;
+    }
+
+    .widthBtnVI{
+        width: 30% !important;
+    }
+
+    .orgDest{
+        flex-direction: column;
+    }
+
+    .destIntem{
+        margin-bottom: 3rem;
+    }
+
+    .bannerAlign{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bannerAlign{
+        flex-direction: column;
+    }
+
+    .imgBanner{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
