@@ -20,37 +20,43 @@
     <link rel="stylesheet" href="styles/produtoEspecPage.css">
     <link rel="stylesheet" href="styles/todosProdutosPage.css">
     <link rel="stylesheet" href="styles/slide.css">
+    <link rel="stylesheet" href="styles/navbar.css">
 
 
     <link 
       rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" /><link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
 
 </head>
+<header>
+
+  <a href="#" class="logo"><img src="img/aba_logo.png" alt="Logo ABA" width="170" height="65"></a>
+
+  <input type="checkbox" id="menu-bar">
+  <label for="menu-bar">Menu</label>
+  
+  <nav class="navbar1">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Produtos +</a>
+              <ul>
+                  <li><a href="#">Caixas de Pizzas</a></li>
+                  <li><a href="#">Caixas de Esfiha</a></li>
+                  <li><a href="#">Guardanapos de papel personalizados</a></li>
+                  <li><a href="#">Sacos de papel personalizados</a></li>
+                  <li><a href="#">Copos de papel personalizados</a></li>
+                  <li><a href="#">Embalagens para Padaria, Cafeteria e Delivery</a></li>
+                  <li><a href="#">Material de Ponto de Venda</a></li>
+                  <li><a href="#">Impressos Gráficos</a></li>
+                  <li><a href="#">Caixas E-Commerce</a></li>
+              </ul>                
+          </li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+      </ul>
+  </nav>
+</header>
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">Menu</span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
+
     <div class="slider">
 
         <div class="slides">
